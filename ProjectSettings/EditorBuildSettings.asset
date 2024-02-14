@@ -4,7 +4,10 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Samples/Mixed Reality Toolkit Examples/2.8.3/Experimental - SceneUnderstanding/Scenes/SceneUnderstandingExample.unity
+    guid: d42a352dc9a8c4d4990a924687759199
   m_configObjects:
     com.unity.xr.arfoundation.simulation_settings: {fileID: 11400000, guid: d332a69b66b4c5644b81d4a66c29b75d, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: e6168aca97269934c8e876d9785016f3, type: 2}

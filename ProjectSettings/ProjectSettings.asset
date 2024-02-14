@@ -140,7 +140,10 @@ PlayerSettings:
   visionOSBundleVersion: 1.0
   tvOSBundleVersion: 1.0
   bundleVersion: 0.1
-  preloadedAssets: []
+  preloadedAssets:
+  - {fileID: -8361743431249437166, guid: e6168aca97269934c8e876d9785016f3, type: 2}
+  - {fileID: 11400000, guid: d332a69b66b4c5644b81d4a66c29b75d, type: 2}
+  - {fileID: 8434436363525894961, guid: 77f7b69b8de82b24e9b751078a3752ed, type: 2}
   metroInputSource: 0
   wsaTransparentSwapchain: 0
   m_HolographicPauseOnTrackingLoss: 1
@@ -681,11 +684,11 @@ PlayerSettings:
   m_MobileRenderingPath: 1
   metroPackageName: SceneUnderstanding
   metroPackageVersion: 1.0.0.0
-  metroCertificatePath: 
+  metroCertificatePath: Assets/WSATestCertificate.pfx
   metroCertificatePassword: 
-  metroCertificateSubject: 
-  metroCertificateIssuer: 
-  metroCertificateNotAfter: 0000000000000000
+  metroCertificateSubject: DefaultCompany
+  metroCertificateIssuer: DefaultCompany
+  metroCertificateNotAfter: 802571d39b7edb01
   metroApplicationDescription: SceneUnderstanding
   wsaImages: {}
   metroTileShortName: SceneUnderstanding
@@ -702,11 +705,11 @@ PlayerSettings:
   metroSplashScreenUseBackgroundColor: 0
   platformCapabilities:
     WindowsStoreApps:
-      SpatialPerception: True
-      Microphone: True
-      WebCam: True
       GazeInput: True
+      SpatialPerception: True
       InternetClient: True
+      WebCam: True
+      Microphone: True
   metroTargetDeviceFamilies: {}
   metroFTAName: 
   metroFTAFileTypes: []
